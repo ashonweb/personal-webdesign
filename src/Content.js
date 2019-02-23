@@ -3,7 +3,7 @@ export default class Content extends Component {
   render(){
     return(
       <div className="background">
-
+        
       </div>
     )
   }
