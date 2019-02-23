@@ -31,3 +31,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.topnav {
+  overflow: hidden; 
+  background-color: #282c34;
+  
+}
+
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+.topnav a:hover{
+  background-color: darkolivegreen;
+  color:#f2f2f2;
+}
+
+.topnav .icon{
+  display: none
+}
+
+.background{
+  background-image: url("https://unsplash.com/photos/9_wnJ3_xgh0")
+}
