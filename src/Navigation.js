@@ -14,15 +14,17 @@ export default class Navigation extends Component {
     }
   }
   render(){
-    return(
+    return (
       <div>
-        <div className= "topnav" id="myTopnav">
-        <a href = "#home"className="active">Home</a>
-        <a href = "#about">about</a>
-        <a href = "#skills">skills</a>
-        <a href="javascript:void(0)" className="icon" onClick = {this.myFunction}>
-          <FontAwesomeIcon icon={faBars} />
-        </a>
+        <div className="topnav" id="myTopnav">
+          <a href="#home" className="active">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#about">WRITING</a>
+          <a href="#skills">CONTACT</a>
+          <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
+            <FontAwesomeIcon icon={faBars} />
+          </a>
         </div>
       </div>
     )
