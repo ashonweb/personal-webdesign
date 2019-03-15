@@ -68,7 +68,7 @@
 
 
 .background {
-  background-image: url('https://wallpaperset.com/w/full/4/4/3/150521.jpg');
+  background-image: url('Desktop-grey-wallpaper-HD.jpg');
   width: auto;
   height: 100vh;
   background-repeat: no-repeat;
@@ -77,3 +77,73 @@
   background-position-x: 30%;
   background-position-y: center;
 }
+
+.contenthome {
+  position: absolute;
+  text-align: center;
+  color: white;
+  /* border: 1px solid red; */
+  /* height: 200px; */
+  /* width: 20px; */
+  /* position: absolute; */
+  left: 0%;
+  left: 20%;
+  top: 20%;
+  /* z-index: 1; */
+  /* box-shadow: 103px 7px 28px 5px rgba(134, 0, 89, .2); */
+
+  
+  /* color:black;
+  position: absolute;
+  margin: 20px; */
+  /* border: 1px solid red; */
+  /* height: 200px; */
+  /* width: 20px; */
+  /* position: absolute; */
+  /* left: 63%; */
+  /* top: 19%;
+  width: 29%;
+  height: 70%; */
+  /* z-index: 1; */
+  /* border-radius: 20px;
+  background-color: #f2f2f2;
+  opacity: 0.4;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 0px 2px 0px 3px #ccc; */
+  /* box-shadow: 103px 7px 28px 5px rgba(134, 0, 89, .2); */
+
+
+}
+
+
+h1{
+  /* padding: 110px;
+  position: absolute; */
+  font-size: 54px;
+  font-weight: 100;
+  /* margin:45px 200px; */
+}
+
+h3 {
+  /* padding: 215px; */
+  /* position: absolute; */
+  font-size: 37px;
+  font-weight: lighter;
+  /* margin: 143px 234px; */
+  /* margin: 0px;
+  left: 374px;
+  top: 320px; */
+}
+
+
+.surname{
+  color:rgb(0,159,167);
+  display: block;
+}
+
+.role{
+  color: white;
+  display: block;
+}
+
