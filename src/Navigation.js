@@ -18,9 +18,11 @@ export default class Navigation extends Component {
     return (
       <div>
         <div className="topnav" id="myTopnav">
-          <Link to="/app" className="active">HOME</Link>
+        <Link to="/" className="active">HOME</Link>
           <Link to="/about">ABOUT</Link>
-          <a href="#skills">SKILLS</a>
+          <Link to="/skills">SKILLS & EXPERIENCE</Link>
+
+          
           <a href="#about">WRITING</a>
           <a href="#skills">CONTACT</a>
           <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
