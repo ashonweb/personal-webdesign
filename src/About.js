@@ -6,7 +6,7 @@ export default class About extends Component {
       <div >
          <div class="aboutbackground">>
           <div class="hover">
-            <div class="text">My name is Bhagyashree Meghpal . I grew up in Kudremukh, Hill station in chickmangaluru.
+            <div class="abouttext">My name is Bhagyashree Meghpal . I grew up in Kudremukh, Hill station in chickmangaluru.
             I did my schooling in Kudremukh from nursary till SSLC.
             When i was growing up trekking was one of thing which was part of everyday.
             Since kudremukh was hill station every day we would chose one mountain and climb.

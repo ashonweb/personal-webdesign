@@ -4,7 +4,7 @@ export default class SkillsExperience extends Component {
   render() {
     return (
       <div >
-        <div className="aboutbackground">>
+        <div className="aboutbackground">
           <div className="hover">
             <div className = "text-skills"> 
               <div className="partone">

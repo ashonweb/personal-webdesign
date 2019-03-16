@@ -21,6 +21,7 @@ export default class Navigation extends Component {
         <Link to="/" className="active">HOME</Link>
           <Link to="/about">ABOUT</Link>
           <Link to="/skills">SKILLS & EXPERIENCE</Link>
+          <Link to="/contact">CONTACT</Link>
 
           
           <a href="#about">WRITING</a>

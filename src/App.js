@@ -4,6 +4,7 @@ import Content from './Content';
 import About from './About';
 import {  Route, Switch } from 'react-router';
 import SkillsExperience from './SkillsExperience';
+import Contact from './Contact';
 
 // class App extends Component {
 //   render() {
@@ -45,6 +46,8 @@ const Routes = () => (
     )}/>
     <Route exact path='/about' component={About} />} /> 
     <Route exact path='/skills' component={SkillsExperience} />} />   
+    <Route exact path='/contact' component={Contact} />} />   
+
   
   </Switch>
 );
