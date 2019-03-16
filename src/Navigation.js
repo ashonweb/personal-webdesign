@@ -3,6 +3,7 @@ import './responsive.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 export default class Navigation extends Component {
    myFunction = () =>{
@@ -17,8 +18,8 @@ export default class Navigation extends Component {
     return (
       <div>
         <div className="topnav" id="myTopnav">
-          <a href="#home" className="active">HOME</a>
-          <a href="#about">ABOUT</a>
+          <Link to="/app" className="active">HOME</Link>
+          <Link to="/about">ABOUT</Link>
           <a href="#skills">SKILLS</a>
           <a href="#about">WRITING</a>
           <a href="#skills">CONTACT</a>

@@ -66,6 +66,26 @@
     /* z-index: 1; */
     /* box-shadow: 103px 7px 28px 5px rgba(134, 0, 89, .2); */
 }
+
+.aboutbackground .text {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  top: 28%;
+  left: 48%;
+  position: relative;
+  /* position: absolute; */
+  /* position: static; */
+  font-weight: lighter;
+  /* top: 27%; */
+  /* left: 42%; */
+  /* right: 0%; */
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 17px lightgrey;
+}
 }
 
  
