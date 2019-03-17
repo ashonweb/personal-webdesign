@@ -421,29 +421,66 @@ p  {
 
 
 
+.formsection {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  /* border:1px solid red; */
+  color :white;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.social{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border:1px solid red;
+  position: absolute;
+  left: 60%;
+  top: 25%;
+
+}
 
 
 
+.font-images{
+  font-size: 30px;
+}
+
+.displaycontainer{
+  display: flex;
+  border-right:0;
+  border-left:0;
+  border-top:0;
+}
+
+label {
+  margin-right: 13px;
+  margin-top: 6px;
+}
+
+
+textarea{
+  width:-webkit-fill-available;
+}
+.sendbutton{
+  position: relative;
+    left: 39%;
+    width:130px;
+}
 
 
 
+h1 , h5{
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  text-align: center;
+  padding:10px;
+  color: white;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
 
 

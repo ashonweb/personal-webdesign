@@ -5,7 +5,7 @@ import About from './About';
 import {  Route, Switch } from 'react-router';
 import SkillsExperience from './SkillsExperience';
 import Contact from './Contact';
-
+import Blog from './Blog';
 // class App extends Component {
 //   render() {
 //     return (
@@ -47,6 +47,8 @@ const Routes = () => (
     <Route exact path='/about' component={About} />} /> 
     <Route exact path='/skills' component={SkillsExperience} />} />   
     <Route exact path='/contact' component={Contact} />} />   
+    <Route exact path='/blog' component={Blog} />} />   
+
 
   
   </Switch>
