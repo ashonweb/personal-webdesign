@@ -1,33 +1,157 @@
-.App {
+.wrapper{
+  /* border: 1px solid red; */
+  margin: 30px 140px;
+  height: 100px;
+
+}
+
+
+.logo{
+  border: 3px solid black;
+  background-image: url(https://cdn.dribbble.com/users/150892/screenshots/3017429/logo-bm-mario-biancolella-01_1x.png);
+  /* top: 50%; */
+  /* padding: 25px; */
+  background-repeat: no-repeat;
+  background-size: 121px 100px;
+  height: 100px;
+  width: 119px;
+  text-align: center;
+  position: relative;
+  left: 40%;
+  /* margin: auto 332px; */
+  border-radius: 50%;
+}
+
+.logo:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
+}
+hr{
+  border: 0.5px solid #323232;;
+}
+
+
+
+.topnav {
+  overflow: hidden; 
+  color: white;
+  padding: 15px;
+  text-align: -webkit-center;  
+}
+
+
+.topnav :hover{
+  background-color: grey;
+  color:#f2f2f2;
+
+}
+
+.topnav .icon{
+  display: none
+}
+
+.topnav a {
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1.5px solid;
+  border-top: 0;
+  border-bottom: 0;
+  -webkit-border-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(226, 226, 226, 1) 48%, rgba(255, 255, 255, 0) 100%);
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(226, 226, 226, 1) 48%, rgba(255, 255, 255, 0) 100%);
+  border-image-slice: 1;
+  font-weight: bold;
+  color:black;
+  font-family: 'chevindemibold', sans-serif;
+
+}
+
+.containerforaboutme{
+  height: 300px;
+  border:1px solid navy;
+}
+.Helloworld{
+  border: 1px solid orangered;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 35%;
+  height: 300px;
+  
+  font-size: xx-large;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.aboutme{
+  border: 1px solid yellow;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 60%;
+  height: 300px;
+  font-size: 20px;
+  padding: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 45px;
+  font-size: 16px;
+  line-height: 45px;
+  text-shadow: 1px 1px 1px blanchedalmond;
+  background: transparent;
+  font-weight: 560;
+}
+
+.aboutmeseperator{
+  border: 2.5px solid  #323232;;
+
+}
+
+
+
+
+.container1{
+  background-image: url("hi.png");
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+  height: 1000px;
+}
+
+container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+  color:red;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+ 
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container:hover .image {
+  opacity: 0.3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 16px;
+  padding: 16px 32px;
 }
