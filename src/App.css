@@ -163,7 +163,7 @@ h3 {
  /* New overlay on hover */
 
 .text-skills {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* margin: 13px; */
   height: 100%;
   
@@ -179,7 +179,7 @@ h3 {
 
 .year {
   height: 227px;
-  border:1px solid orange;
+  /* border:1px solid orange; */
   width:100%;
 }
 .startyear{
@@ -220,7 +220,7 @@ ul li{
  vertical-align: top;
  box-sizing: border-box;
  width:70%;
- border:1px solid chartreuse
+ /* border:1px solid chartreuse */
 }
 .parttwo{
 
@@ -228,7 +228,7 @@ ul li{
   vertical-align: top;
   box-sizing: border-box;
   width:30%;
-  border:1px solid violet;
+  /* border:1px solid violet; */
   height: 100%;
 
 }
@@ -250,7 +250,16 @@ ul li{
   vertical-align: top;
   box-sizing: border-box;  width: 63%;
 
+  margin: 28px auto;
+}
+
+.skillitems1{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;  width: 63%;
+
   /* margin: 28px auto; */
+
 }
 
 .circle-wrap .circle .mask,
@@ -305,7 +314,7 @@ ul li{
   position: absolute;
   z-index: 100;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 p  {
@@ -317,7 +326,7 @@ p  {
 
 .primaryskills{
   color: #fff;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5em;
   text-shadow: 2px 2px 2px #000;
   text-align: center;
@@ -354,7 +363,7 @@ p  {
 }
 
 .skillssection{
-  border: 1px solid saddlebrown;
+  /* border: 1px solid saddlebrown; */
   
   
 }
@@ -392,7 +401,7 @@ p  {
 
 .listStylered {
   color: red;
-  font-size: 22px;
+  font-size: 19px;
   list-style: square;
 } 
 .liststyle  {
@@ -403,17 +412,17 @@ p  {
 
 .listStyleblue {
   color: blue;
-  font-size: 22px;
+  font-size: 19px;
   list-style: square;
 } 
 .listStyleyellow {
   color: yellow;
-  font-size: 22px;
+  font-size: 19px;
   list-style: square;
 } 
 .listStylegreen {
   color: green;
-  font-size: 22px;
+  font-size: 19px;
   list-style: square;
 } 
 
@@ -435,17 +444,20 @@ p  {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   left: 60%;
+  
   top: 25%;
+  
 
 }
 
 
 
 .font-images{
-  font-size: 30px;
+  font-size: 23px;
+  color:white;
 }
 
 .displaycontainer{
@@ -483,27 +495,34 @@ h1 , h5{
 }
 
 
+.location{
+  color: white;
+  padding:10px;
+}
 
+.contactmeitems {
+  padding: 10px;
+  font-family:monospace
+}
 
+hr{
+  border-bottom: 0.5px solid white;
+ 
+    /* border: 0; */
+}
+.social-icon-sections{
+  text-align: center
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-icons{
+  /* border:1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  position: relative;
+  left:10px;
+  padding: 15px;
+}
 
 
 

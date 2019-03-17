@@ -27,7 +27,7 @@ export default class Navigation extends Component {
 
           
           <a href="#about">WRITING</a>
-          <a href="#skills">CONTACT</a>
+          
           <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
             <FontAwesomeIcon icon={faBars} />
           </a>

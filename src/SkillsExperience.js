@@ -159,7 +159,7 @@ export default class SkillsExperience extends Component {
                    </div>
                   </div>
                 </div> */}
-                 <div className="skillitems">
+                 <div className="skillitems1">
                       
                  <ul >
     <li class="listStylered">

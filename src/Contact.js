@@ -1,9 +1,10 @@
 import React , {Component} from 'react';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { library } from '@fortawesome/fontawesome-svg-core';
- import { faGlasses, faSpinner, faAddressBook, faHeart } from '@fortawesome/free-solid-svg-icons'
+ import {  faHeart,  faMapMarkerAlt, faPhone,} from '@fortawesome/free-solid-svg-icons';
+ import{faTwitter,faGithub,faBitbucket, faLinkedin, faAngellist, faPinterest, faInstagram,faFreeCodeCamp} from '@fortawesome/free-brands-svg-icons';
  import { faUser,faEnvelope,faBook,faComments,faPaperPlane,faHandPointDown} from '@fortawesome/free-solid-svg-icons';
- import {Form, Button} from 'react-bootstrap';
+ import {Form, Button, } from 'react-bootstrap';
 
 export default class Contact extends Component {
   render(){
@@ -39,7 +40,7 @@ export default class Contact extends Component {
                 <Form.Label>   
                   <FontAwesomeIcon icon={faComments} className="font-images" /> &nbsp;&nbsp;
               </Form.Label>
-                <textarea className={Form.Control} row="5"></textarea>
+                <textarea className={Form.Control} row="5" placeholder="Message"></textarea>
                 
                
               </Form.Group>
@@ -50,9 +51,48 @@ export default class Contact extends Component {
             </Form>
           </div>  
           <div className="social">
-          <p></p></div>
+            <div className="contactmeitems">
+              <FontAwesomeIcon icon={faMapMarkerAlt} className="font-images" /> <span className="location"><b>Bangalore,Karnataka India </b></span>
+            </div>
+            <div className="contactmeitems" >
+              <FontAwesomeIcon icon={faPhone} className="font-images" /> <span className="location"><b>9663478727</b></span>
+            </div>
+            <div className="contactmeitems" >
+              <FontAwesomeIcon icon={faEnvelope} className="font-images" /> <span className="location"><b>bhagyameghpal14@gmail.com </b></span>
+            </div>
+            <hr/>
+            <div className="social-icon-sections">
+              <div className="social-icons">
+              <a href="https://twitter.com/meghpalbhagya"><FontAwesomeIcon icon={faTwitter} className="font-images" /></a>
+              </div>
+              <div className="social-icons">             
+               <a href="https://github.com/ashonweb"><FontAwesomeIcon icon={faGithub} className="font-images" /></a>
+              </div>
+            
+              <div className="social-icons">
+                  
+               <a href="https://angel.co/ashonweb"><FontAwesomeIcon icon={faAngellist} className="font-images" /></a>
+             
+              </div>
+       
+              <div className="social-icons">
+                  
+               <a href="https://instagram.com/bhagyameghpal"><FontAwesomeIcon icon={faInstagram} className="font-images" /></a>
+             
+              </div>
+              <div className="social-icons">
+                  
+               <a href="https://freecodecamp.org/ashonweb"><FontAwesomeIcon icon={faFreeCodeCamp} className="font-images" /></a>
+             
+              </div>
+             
+            </div>
           </div>
-        </div> 
+          
+           
+        </div>
+          
+       </div> 
       </div>
     )
   }
