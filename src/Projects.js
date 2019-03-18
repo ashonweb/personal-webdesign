@@ -66,7 +66,7 @@ export default class Projects extends Component {
       <img src={calc} alt="da" className="calcapp" />
       <div class="Projecttwodescription">
         <div class="calctext">
-          DRUM MACHINE APPLICATION <br/>
+          CALCULATOR APPLICATION <br/>
           <hr className="description"></hr><br/>
           <p> A simple Calculator app which does basic arithmatic operations</p>
           <p> Technologies used <br/>React, Git</p>
