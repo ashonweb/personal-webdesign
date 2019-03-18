@@ -175,6 +175,10 @@ height: 800px;
   height:398px;
   width: 100%;
 }
+.calcapp{
+  height:355px;
+  width: 100%;
+}
 
 /* .projectone:hover .faceapp{
   opacity: 0.3;
@@ -253,6 +257,18 @@ font-family: 'chevindemibold', sans-serif;
       font-weight: bold;
       line-height: 40px;
   }
+
+
+  .calctext{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding: 20px;
+      font-size: medium;
+      font-weight: bold;
+      line-height: 40px;
+
+  }
   .diatext{
     color: white;
     font-size: 20px;
@@ -269,6 +285,10 @@ font-family: 'chevindemibold', sans-serif;
 
 
   .projectthree:hover .Projecttwodescription {
+    opacity: 1.5;
+  }
+
+  .projectfour:hover .Projecttwodescription {
     opacity: 1.5;
   }
 
@@ -332,4 +352,51 @@ border: 1px solid black;
   width: 24px;
     float: left;
     border: 1.5px solid white;
+}
+
+
+
+.secondrow{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+
+.projectfour{
+  /* display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border:1px solid red;
+  height:400px;
+  width:50%; */
+
+
+
+
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 50%;
+  /* border:1px solid darkgoldenrod; */
+  height: 377px;
+  margin:auto 10px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  border:1px solid black;
+
+}
+.projectfive{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 47%;
+  /* border:1px solid navy; */
+  height: 377px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  border: 1px solid black;
 }

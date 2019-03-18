@@ -1,7 +1,8 @@
 import React,{Component } from 'react';
 import face from './faceapp.PNG';
 import drum from './drummachine.png'
-import diamond from './diamondgame.png'
+import diamond from './diamondgame.png';
+import calc from './calc.png'
 
 export default class Projects extends Component {
   render(){
@@ -60,7 +61,21 @@ export default class Projects extends Component {
 
 
   </div>
-  
+  <div className="secondrow">
+    <div className="projectfour">
+      <img src={calc} alt="da" className="calcapp" />
+      <div class="Projecttwodescription">
+        <div class="calctext">
+          DRUM MACHINE APPLICATION <br/>
+          <hr className="description"></hr><br/>
+          <p> A simple Calculator app which does basic arithmatic operations</p>
+          <p> Technologies used <br/>React, Git</p>
+          <p><a href="https://calculator-bmeghpal.surge.sh/">Click here to see live</a></p>
+         </div>
+      </div> 
+    </div>
+    <div className="projectfive"></div>
+  </div>
   
  
 
