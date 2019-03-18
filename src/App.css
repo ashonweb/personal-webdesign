@@ -69,10 +69,10 @@ hr{
 
 .containerforaboutme{
   height: 300px;
-  border:1px solid navy;
+  /* border:1px solidsolid navy; */
 }
 .Helloworld{
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -83,7 +83,7 @@ hr{
   font-family: 'ZCOOL XiaoWei', serif;
 }
 .aboutme{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -108,50 +108,126 @@ hr{
 
 
 
-.container1{
+/* .container1{
   background-image: url("hi.png");
   background-repeat: no-repeat;
   background-color: antiquewhite;
   height: 1000px;
-}
+} */
 
-container {
-  position: relative;
-  width: 50%;
-}
 
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
+
+
+
+.projectsection{
+  height: 400px;
+}
+.projectone{
+  
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    /* width: 23%; */
+    width: 32%;
+    border: 1px solid saddlebrown;
+    /* background-image: url(faceapp.PNG);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 800px;
+    opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
+  position: relative;
 
-  color:red;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
  
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+   
 }
 
-.container:hover .image {
+.faceapp{
+  width: 100%;
+    height: 783px;
+
+}
+
+/* .projectone:hover .faceapp{
   opacity: 0.3;
+} */
+
+
+.middle{
+  
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(203, 161, 234);
+
+/*   
+    -webkit-transition: .5s ease;
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute; 
+     top: 50%; 
+    left: 20%;
+    background-color: aqua; */
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(0%, 349%); */
 }
 
-.container:hover .middle {
-  opacity: 1;
-}
 
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+
+  .projectone:hover .middle {
+    opacity: 1.5;
+  }
+  
+  .text {
+    /* background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px; */
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  }
+
+/* display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 16%;
+    border: 1px solid saddlebrown;
+    background-image: url(http://localhost:3000/static/media/123.6c8250d5.png);
+    /* top: 50%; */
+    /* padding: 25px; */
+    /* background-repeat: no-repeat;
+    background-size: auto;
+    height: 725px; */ 
+
+
+
+.projecttwo{
+
+  display: inline-block;
+vertical-align: top;
+box-sizing: border-box;
+width: 25%;
+border:1px solid darkgoldenrod;
+height: 400px;
+margin:auto 25px;
+}
+.projectthree{
+  display: inline-block;
+vertical-align: top;
+box-sizing: border-box;
+width: 35%;
+border:1px solid navy;
+height: 400px;
+
 }

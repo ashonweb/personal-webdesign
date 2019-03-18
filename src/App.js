@@ -14,10 +14,9 @@ export default  class App extends Component {
        <Logo />
        <hr></hr>
           <Navigationnew />
+          <hr></hr>
           <Route path='/' component={Routes} /> 
-       <hr></hr>
-       <Aboutme />
-       <Projects />
+            
       </div>
     );
   }
@@ -25,7 +24,15 @@ export default  class App extends Component {
 
 const Routes = () => (
   <Switch>
-    <Route exact path='/blog' component={About} /> /> 
+    <Route exact path='/' render={() => (
+      <div>
+        <Aboutme />
+        <hr></hr>
+        <Projects />
+      </div>      
+    )}
+    />
+    <Route exact path='/blog' component={About} />
   </Switch>
 );
 

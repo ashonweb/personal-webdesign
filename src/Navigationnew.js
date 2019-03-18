@@ -22,9 +22,7 @@ export default class Navigationnew extends Component {
         <Link to="/skills">SKILLS & EXPERIENCE</Link>
         <Link to="/contact">CONTACT</Link>*/}
         <Link to="/blog">Info</Link> 
-        <Link to="/blog">BLOG</Link> 
-        <Link to="/blog">Skills</Link> 
-        
+       
         <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
           <FontAwesomeIcon icon={faBars} />
         </a>
