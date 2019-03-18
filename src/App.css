@@ -120,7 +120,8 @@ hr{
 
 
 .projectsection{
-  height: 800px;
+  height: auto;
+  border:1px solid red
 }
 
 
@@ -179,7 +180,10 @@ height: 800px;
   height:355px;
   width: 100%;
 }
-
+.wikiapp{
+  height: 400px;
+  width:100%;
+}
 /* .projectone:hover .faceapp{
   opacity: 0.3;
 } */
@@ -291,6 +295,12 @@ font-family: 'chevindemibold', sans-serif;
   .projectfour:hover .Projecttwodescription {
     opacity: 1.5;
   }
+  .projectfive:hover .projectfivedesc {
+    opacity: 1.5;
+  }
+  .projectsix:hover .projectsixdesc {
+    opacity: 1.5;
+  }
 
 
 
@@ -348,6 +358,35 @@ border: 1px solid black;
 
 }
 
+.projectfivedesc{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(240, 98, 98);
+
+
+}
+.projectsixdesc{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(119, 229, 222);
+
+
+}
 .description{
   width: 24px;
     float: left;
@@ -441,4 +480,31 @@ span{
 h5{
   margin: 0;
   float: right;
+}
+
+
+
+.projectsix{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 49%;
+  margin-right:10px;
+  border:1px solid hotpink;
+  height: 400px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+}
+
+
+.projectseven{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 50%;
+  border:1px solid rgb(23, 114, 218);
+  height: 400px;
+
 }

@@ -2,7 +2,9 @@ import React,{Component } from 'react';
 import face from './faceapp.PNG';
 import drum from './drummachine.png'
 import diamond from './diamondgame.png';
-import calc from './calc.png'
+import calc from './calc.png';
+import todo from './todo.png';
+import wiki from './wiki.png'
 
 export default class Projects extends Component {
   render(){
@@ -74,12 +76,42 @@ export default class Projects extends Component {
          </div>
       </div> 
     </div>
-    <div className="projectfive"></div>
+    <div className="projectfive">
+    
+    <img src={todo} alt="da" className="calcapp" />
+      <div class="projectfivedesc">
+        <div class="calctext">
+          TODO APPLICATION <br/>
+          <hr className="description"></hr><br/>
+          <p>A to do application which does the basic operations i.e addition,deletion,updation</p>
+          <p> Technologies used <br/>React, Git</p>
+          <p><a href="https://bmeghpal_todoapp.surge.sh/">Click here to see live</a></p>
+         </div>
+      </div> 
+    </div>
+  </div>
+  </div>
+  <div className="thirdblock">
+  <div className="projectsix">
+  <img src={wiki} alt="da" className="wikiapp" />
+      <div class="projectsixdesc">
+        <div class="calctext">
+          WIKIPEDIA VIWER APPLICATION <br/>
+          <hr className="description"></hr><br/>
+          <p>A wikipedia search machine which produce the first 10 results based on search</p>
+          <p> Technologies used <br/>JavaScript, CSS,HTML,Fetch API</p>
+          <p><a href="https://wiki-bmeghpal-viwer.surge.sh/">Click here to see live</a></p>
+         </div>
+      </div> 
+  </div>
+  <div className="projectseven"> 
+
+  </div>
   </div>
   
  
 
-  </div>
+  
   
 
 
