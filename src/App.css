@@ -121,7 +121,7 @@ hr{
 
 .projectsection{
   height: auto;
-  border:1px solid red
+  /* border:1px solid red */
 }
 
 
@@ -219,6 +219,7 @@ height: 800px;
 
   .projectone:hover .middle {
     opacity: 1.5;
+    cursor: pointer;
   }
   
   .text {
@@ -285,21 +286,31 @@ font-family: 'chevindemibold', sans-serif;
 
   .projecttwo:hover .Projecttwodescription {
     opacity: 1.5;
+    cursor: pointer;
+    
   }
 
 
   .projectthree:hover .Projecttwodescription {
     opacity: 1.5;
+    cursor: pointer;
   }
 
   .projectfour:hover .Projecttwodescription {
     opacity: 1.5;
+    cursor: pointer;
   }
   .projectfive:hover .projectfivedesc {
     opacity: 1.5;
+    cursor: pointer;
   }
   .projectsix:hover .projectsixdesc {
     opacity: 1.5;
+    cursor: pointer;
+  }
+  .projectseven:hover .projectsevendesc {
+    opacity: 1.5;
+    cursor: pointer;
   }
 
 
@@ -384,6 +395,20 @@ border: 1px solid black;
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(119, 229, 222);
+
+
+}
+.projectsevendesc{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  grey;
 
 
 }
@@ -478,10 +503,12 @@ span{
 
 
 h5{
-  margin: 0;
+  margin: 5px;
   float: right;
 }
-
+.endfooter{
+  margin-top:14px;
+}
 
 
 .projectsix{
@@ -490,12 +517,13 @@ h5{
   box-sizing: border-box;
   width: 49%;
   margin-right:10px;
-  border:1px solid hotpink;
+  /* border:1px solid hotpink; */
   height: 400px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
   position: relative;
+  border:1px solid rgb(123, 229, 222)
 }
 
 
@@ -504,7 +532,12 @@ h5{
   vertical-align: top;
   box-sizing: border-box;
   width: 50%;
-  border:1px solid rgb(23, 114, 218);
+  /* border:1px solid rgb(23, 114, 218); */
   height: 400px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  border:1px solid black;
 
 }

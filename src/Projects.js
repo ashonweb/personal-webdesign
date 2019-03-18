@@ -4,7 +4,8 @@ import drum from './drummachine.png'
 import diamond from './diamondgame.png';
 import calc from './calc.png';
 import todo from './todo.png';
-import wiki from './wiki.png'
+import wiki from './wiki.png';
+import article from './article.png';
 
 export default class Projects extends Component {
   render(){
@@ -96,7 +97,7 @@ export default class Projects extends Component {
   <img src={wiki} alt="da" className="wikiapp" />
       <div class="projectsixdesc">
         <div class="calctext">
-          WIKIPEDIA VIWER APPLICATION <br/>
+          WIKIPEDIA VIEWER APPLICATION <br/>
           <hr className="description"></hr><br/>
           <p>A wikipedia search machine which produce the first 10 results based on search</p>
           <p> Technologies used <br/>JavaScript, CSS,HTML,Fetch API</p>
@@ -105,6 +106,16 @@ export default class Projects extends Component {
       </div> 
   </div>
   <div className="projectseven"> 
+  <img src={article} alt="da" className="wikiapp" />
+      <div class="projectsevendesc">
+        <div class="calctext">
+          RANDOM QUOTE ENGINE <br/>
+          <hr className="description"></hr><br/>
+          <p>Random Quote Engine generates a new quote on a click event</p>
+          <p> Technologies used <br/>JavaScript,BootStrap, CSS,HTML,Fetch API</p>
+          <p><a href="https://random-article-bmeghpal.surge.sh/">Click here to see live</a></p>
+         </div>
+      </div> 
 
   </div>
   </div>
