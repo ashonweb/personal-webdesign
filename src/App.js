@@ -3,40 +3,60 @@ import './App.css';
 import Logo from './Logo';
 import Navigationnew from './Navigationnew';
 import { Route, Switch } from 'react-router';
-import About from './About';
+import Blog from './Blog';
 import Aboutme from './Aboutme';
 import Projects from './Projects';
-import Footer from './Footer';
-
+import Contact from'./Contact';
 export default  class App extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showContact: false,
+    }
+  }
+
+  updateContactVisibility = (showContact) => {
+    this.setState({
+      showContact,
+    })
+  }
+
+  render() {    
     return (
       <div>
        <Logo />
        <hr></hr>
-          <Navigationnew />
+          <Navigationnew updateContactVisibility={this.updateContactVisibility} />
           <hr></hr>
-          <Route path='/' component={Routes} /> 
+          <Route path='/' render={() => <Routes showContact={this.state.showContact} />} /> 
           
           <h5>Designed by B.Meghpal</h5>
-          <hr></hr>
+          <hr className="endfooter"></hr>
       </div>
     );
   }
 }
 
-const Routes = () => (
-  <Switch>
-    <Route exact path='/' render={() => (
-      <div>
-        <Aboutme />
-        <hr></hr>
-        <Projects />
-        
-      </div>      
-    )}
-    />
-    <Route exact path='/blog' component={About} />
-  </Switch>
-);
+const Routes = ({ showContact }) => {
+  console.log(showContact);
+  return (  
+    <Switch>
+      <Route exact path='/' render={() => (        
+        <div>
+          {
+            showContact &&
+            <div><Contact/></div>
+          }
+          <Aboutme />
+          <hr></hr>
+          <Projects />        
+        </div>      
+      )}
+      />
+      <Route exact path='/blog' component={Blog} />
+      {/* <Route exact path='/contact' component={Contact} /> */}
+  
+    </Switch>
+  );
+}
 
