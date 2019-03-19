@@ -639,8 +639,9 @@ background-color:black;
   transform: rotateX(10deg);
   animation: one 0.9s;
   animation-direction:reverse;
+  position: fixed;
   top: -20px;
-    height: 111vh;
+  height: 111vh;
   /* animation: roll 0.5s ;
   transform: scale(1) rotate(720deg); */
   
