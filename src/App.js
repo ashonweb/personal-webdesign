@@ -12,24 +12,29 @@ export default  class App extends Component {
     super(props);
     this.state = {
       showContact: false,
+      bhagya:false,
     }
   }
 
   updateContactVisibility = (showContact) => {
     this.setState({
       showContact,
+      
     })
   }
 
   render() {    
     return (
-      <div>
+      <div className={this.state.showContact ? "whatever" : ""}>
        <Logo />
        <hr></hr>
           <Navigationnew updateContactVisibility={this.updateContactVisibility} />
           <hr></hr>
-          <Route path='/' render={() => <Routes showContact={this.state.showContact} />} /> 
-          
+          <Route path='/' render={() => <Routes
+            showContact={this.state.showContact}
+            updateContactVisibility={this.updateContactVisibility}
+            />}
+          />          
           <h5>Designed by B.Meghpal</h5>
           <hr className="endfooter"></hr>
       </div>
@@ -37,19 +42,25 @@ export default  class App extends Component {
   }
 }
 
-const Routes = ({ showContact }) => {
+const Routes = ({ showContact, updateContactVisibility }) => {
   console.log(showContact);
   return (  
     <Switch>
       <Route exact path='/' render={() => (        
         <div>
+
+          
           {
+            
             showContact &&
-            <div><Contact/></div>
+            <div><Contact showContact={showContact} updateContactVisibility={updateContactVisibility}/></div>
           }
+          
           <Aboutme />
           <hr></hr>
-          <Projects />        
+          <Projects />  
+          
+               
         </div>      
       )}
       />
