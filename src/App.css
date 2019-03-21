@@ -695,3 +695,133 @@ h4{
   color: rgb(240, 98, 98);
   transition: 800ms ease-in-out;
 }
+
+
+.javascriptblog{
+  
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid red;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png);
+    background-repeat: no-repeat;
+    height: 322px;
+    background-size: 320px;
+
+
+}
+
+.jsimage{
+
+  
+}
+
+.react {
+
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 30%;
+  border: 1px solid saddlebrown;
+  background-image: url(https://static.viget.com/react-logo-wide.png?mtime=20160411121644);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  height: 322px;
+  margin: auto;
+}
+
+
+
+
+.blogcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.html{
+
+  display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid saddlebrown;
+    background-image: url(http://www.sickchirpse.com/wp-content/uploads/2016/09/HTML.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 320px 322px;
+    height: 322px;
+    transition: .5s ease;
+    position: relative;backface-visibility: hidden;
+}
+
+
+
+.middletext {
+  
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* -webkit-transform: translate(50%, 50%); */
+    /* transform: translate(-50%, -50%); */
+    /* text-align: center; */
+    height: inherit;
+
+}
+ 
+
+.html:hover  {
+  opacity: 0.3;
+}
+
+.html:hover  .middletext {
+  opacity: 1;
+}
+
+
+.textblog{
+  
+  /* background-color: grey;
+  color: white;
+  font-size: 16px;
+  /* padding: 16px 32px; */
+  /* text-align: center; */
+  /* position: absolute; */
+  /* top: 3%; */
+  /* left: 35%; */
+  /* border: 1px solid red; */
+  /* height: -webkit-fill-available;
+  width: 320px; */ 
+}
+
+  .textblog {
+    background-color:orangered;
+    color: white;
+    font-size: 25px;
+    height: -webkit-fill-available;
+  
+
+}
+
+
+
+.textblog a{
+  position: absolute;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    text-align: auto ;
+    padding-left: 20px;
+    text-decoration: none;
+    
+}
+
+
+
+.textblog  a:hover{
+  color:  blue;
+}
+
+
