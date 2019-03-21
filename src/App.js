@@ -7,6 +7,9 @@ import Blog from './Blog';
 import Aboutme from './Aboutme';
 import Projects from './Projects';
 import Contact from'./Contact';
+import Html from './Html';
+import Jsblog from './Jsblog';
+import Reactblog from './Reactblog';
 export default  class App extends Component {
   constructor(props) {
     super(props);
@@ -66,7 +69,10 @@ const Routes = ({ showContact, updateContactVisibility }) => {
       />
       <Route exact path='/blog' component={Blog} />
       {/* <Route exact path='/contact' component={Contact} /> */}
-  
+      <Route exact path = '/htmlblog' component={Html} />
+      <Route exact path = '/jsblog' component={Jsblog} />
+      <Route exact path = '/reactblog' component={Reactblog} />
+
     </Switch>
   );
 }

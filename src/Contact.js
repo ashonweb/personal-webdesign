@@ -5,10 +5,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGlasses, faSpinner, faWindowClose, faClosedCaptioning, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faTwitter,faGithub,faLinkedin,faAngellist,faFreeCodeCamp,} from '@fortawesome/free-brands-svg-icons';
+
+
 export default class Contact extends Component{
-
-  
-
   closeModal = () => {
     this.props.updateContactVisibility(false);
    
