@@ -51,8 +51,6 @@ const Routes = ({ showContact, updateContactVisibility }) => {
     <Switch>
       <Route exact path='/' render={() => (        
         <div>
-
-          
           {
             
             showContact &&
