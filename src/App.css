@@ -198,7 +198,7 @@ hr{
   background-image: url(./faceapp.PNG);
   background-size: cover;
   height: 100%;
-  border:1px solid  rgb(203, 161, 234);
+  border:1px solid  black;
 }
 
 .projectone {  
@@ -998,6 +998,9 @@ h3 {
   
   margin-right: 10px;
   position: relative;
+  background-position: -5px 0px;
+  background-repeat: no-repeat;
+
 }
 
 .profour-back:hover  .Projecttwodescription{
@@ -1035,7 +1038,7 @@ h3 {
   box-sizing: border-box;
   width:48%;
   margin-right: 10px;
-  border:1px solid rgb(123, 229, 222);
+  border:1px solid black;
   height: inherit;
   background-image: url(./wiki.png);
   background-size: cover; 

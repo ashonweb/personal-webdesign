@@ -73,7 +73,7 @@ const Routes = ({ showContact,showResume,updateContactVisibility ,updateResumeVi
           }
           
           <Aboutme />
-          <hr></hr>
+          
           <Projects />  
           
                

@@ -13,7 +13,7 @@ export default class Aboutme extends Component {
             <br />
             Welcome to my online portfolio! Here is the collection of my personal projects . Please feel free to explore & tell me what you think about it!
           </div>
-          <hr className="aboutmeseperator"></hr>
+          
       </div>
     )
   }
