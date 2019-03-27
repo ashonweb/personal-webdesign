@@ -10,12 +10,14 @@ import Contact from'./Contact';
 import Html from './Html';
 import Jsblog from './Jsblog';
 import Reactblog from './Reactblog';
+import Resume from './Resume';
 export default  class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       showContact: false,
       bhagya:false,
+      showResume:false,
     }
   }
 
@@ -25,17 +27,25 @@ export default  class App extends Component {
       
     })
   }
+  updateResumeVisibility = (showResume) =>{
+    this.setState({
+      showResume,
+      
+    })
+  }
 
   render() {    
     return (
-      <div className={this.state.showContact ? "whatever" : ""}>
+      <div>
        <Logo />
        <hr></hr>
-          <Navigationnew updateContactVisibility={this.updateContactVisibility} />
+          <Navigationnew updateContactVisibility={this.updateContactVisibility} updateResumeVisibility={this.updateResumeVisibility} />
           <hr></hr>
           <Route path='/' render={() => <Routes
             showContact={this.state.showContact}
+            showResume = {this.state.showResume}
             updateContactVisibility={this.updateContactVisibility}
+            updateResumeVisibility = {this.updateResumeVisibility}
             />}
           />          
           <h5>Designed by B.Meghpal</h5>
@@ -45,8 +55,9 @@ export default  class App extends Component {
   }
 }
 
-const Routes = ({ showContact, updateContactVisibility }) => {
+const Routes = ({ showContact,showResume,updateContactVisibility ,updateResumeVisibility}) => {
   console.log(showContact);
+  console.log(showResume);
   return (  
     <Switch>
       <Route exact path='/' render={() => (        
@@ -55,6 +66,10 @@ const Routes = ({ showContact, updateContactVisibility }) => {
             
             showContact &&
             <div><Contact showContact={showContact} updateContactVisibility={updateContactVisibility}/></div>
+          }
+          {
+            showResume &&
+            <div> <Resume showResume={showResume} updateResumeVisibility={updateResumeVisibility}/></div>
           }
           
           <Aboutme />
@@ -65,11 +80,11 @@ const Routes = ({ showContact, updateContactVisibility }) => {
         </div>      
       )}
       />
-      <Route exact path='/blog' component={Blog} />
+      {/* <Route exact path='/resume' component={Blog} />
       {/* <Route exact path='/contact' component={Contact} /> */}
-      <Route exact path = '/htmlblog' component={Html} />
+      {/* <Route exact path = '/htmlblog' component={Html} />
       <Route exact path = '/jsblog' component={Jsblog} />
-      <Route exact path = '/reactblog' component={Reactblog} />
+      <Route exact path = '/reactblog' component={Reactblog} />  */}
 
     </Switch>
   );

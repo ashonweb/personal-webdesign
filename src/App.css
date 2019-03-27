@@ -37,12 +37,14 @@ hr{
   color: white;
   padding: 15px;
   text-align: -webkit-center;  
+  
 }
 
 
 .topnav :hover{
   background-color: grey;
   color:#f2f2f2;
+  
 
 }
 
@@ -67,6 +69,26 @@ hr{
 
 }
 
+
+.topnav button {
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 15px;
+  
+  background: transparent;
+  font-weight: 700;
+  font-family: 'chevindemibold', sans-serif;
+  border: 1px solid ;
+  border-top: 0;
+  border-bottom: 0;
+  -webkit-border-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgb(12, 10, 10) 48%, rgba(255, 255, 255, 0) 100%);
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(12, 10, 10) 48%, rgba(255, 255, 255, 0) 100%);
+  border-image-slice: 1;
+
+  
+}
+
 .containerforaboutme{
   height: 300px;
   /* border:1px solidsolid navy; */
@@ -78,6 +100,16 @@ hr{
   box-sizing: border-box;
   width: 35%;
   height: 300px;
+  
+  font-size: xx-large;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.jsblogtitle{
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 35%;
+  height: 100px;
   
   font-size: xx-large;
   font-family: 'ZCOOL XiaoWei', serif;
@@ -98,6 +130,25 @@ hr{
   text-shadow: 1px 1px 1px blanchedalmond;
   background: transparent;
   font-weight: 560;
+}
+.jsblogcontent {
+  
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    
+    
+    font-size: 20px;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    text-shadow: 1px 1px 1px blanchedalmond;
+    background: transparent;
+    font-weight: 560;
+  
 }
 
 .aboutmeseperator{
@@ -125,14 +176,13 @@ hr{
 }
 
 
-.firstblock{
-display: inline-block;
-vertical-align: top;
-box-sizing: border-box;
-width: 32%;
-/* border: 1px solid saddlebrown; */
-height: 800px;
-
+.firstblock {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 32%;  
+  height: 1146px;
+  position: relative;
 }
 
 .secondblock{
@@ -144,54 +194,35 @@ height: 800px;
   /* border:1px solid red; */
 }
 
+.projectone-backg {
+  background-image: url(./faceapp.PNG);
+  background-size: cover;
+  height: 100%;
+  border:1px solid  rgb(203, 161, 234);
+}
 
-.projectone{
-  
-    
-    vertical-align: top;
-    box-sizing: border-box;
-    /* width: 23%; */
-   
-    /* background-image: url(faceapp.PNG);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    
-    opacity: 1;
+.projectone {  
+  vertical-align: top;
+  box-sizing: border-box;   
+  opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
   position: relative;
-  border:1px solid  rgb(203, 161, 234)
-
- 
-   
+  border: 1px solid  rgb(203, 161, 234);
 }
 
-.faceapp{
+.faceapp {
   width: 100%;
-    height: 783px;
-
+  height: 783px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;  
+  transition: all .5s ease;
+  position: relative;
+  backface-visibility: hidden;
 }
 
-.drumapp{
-  height:398px;
-  width: 100%;
-}
-.calcapp{
-  height:355px;
-  width: 100%;
-}
-.wikiapp{
-  height: 400px;
-  width:100%;
-}
-/* .projectone:hover .faceapp{
-  opacity: 0.3;
-} */
-
-
-.middle{
-  
-
+.middle {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -202,56 +233,54 @@ height: 800px;
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(203, 161, 234);
+}
 
-/*   
-    -webkit-transition: .5s ease;
-    transition: 0.5s ease;
-    opacity: 0;
-    position: absolute; 
-     top: 50%; 
-    left: 20%;
-    background-color: aqua; */
-    /* -webkit-transform: translate(-50%, -50%);
-    transform: translate(0%, 349%); */
+.projectone:hover .middle {
+  opacity: 1.5;
+  cursor: pointer;
 }
 
 
-
-  .projectone:hover .middle {
-    opacity: 1.5;
-    cursor: pointer;
-  }
-  
-  .text {
-    /* background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px; */
-    color: white;
-  font-size: 20px;
-  position: absolute;
-  padding: 20px;
-    font-size: medium;
-    font-weight: bold;
-    line-height: 50px;
-
-/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-font-family: 'chevindemibold', sans-serif;
-  /* top: 50%;
-  left: 50%; */
-
-/* display: inline-block;
+.drumapp{
+  height:398px;
+  width: 100%;
+  display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-    width: 16%;
-    border: 1px solid saddlebrown;
-    background-image: url(http://localhost:3000/static/media/123.6c8250d5.png);
-    /* top: 50%; */
-    /* padding: 25px; */
-    /* background-repeat: no-repeat;
-    background-size: auto;
-    height: 725px; */ 
-  }
+    /* width: 30%; */
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png); */
+    /* background-repeat: no-repeat; */
+    /* height: 322px; */
+    /* background-size: 320px; */
+    transition: all .5s ease;
+    position: relative;
+    backface-visibility: hidden;
+}
+.calcapp{
+  height:374px;
+  width: 100%;
+  display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    /* width: 30%; */
+    
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png); */
+    /* background-repeat: no-repeat; */
+    /* height: 322px; */
+    /* background-size: 320px; */
+    transition: all .5s ease;
+    position: relative;
+    backface-visibility: hidden;
+}
+.wikiapp{
+  height: 400px;
+  width:100%;
+}
+/* .projectone:hover .faceapp{
+  opacity: 0.3;
+} */
+
+
 
   .drumtext{
     color: white;
@@ -317,7 +346,7 @@ font-family: 'chevindemibold', sans-serif;
 
 
   .firstrow {
-    border:1px solid rgb(66, 230, 17);
+    border:1px solid red;
 height: 400px;
 width:68%;
   }
@@ -412,11 +441,7 @@ border: 1px solid black;
 
 
 }
-.description{
-  width: 24px;
-    float: left;
-    border: 1.5px solid white;
-}
+
 
 
 
@@ -575,7 +600,12 @@ background-color:black;
     top: 0px;
     right: 10px;
     color: white;
-    padding: 3px;
+    padding: 6px;
+    transform: rotateX(10deg);
+    animation: one 0.9s;
+    animation-direction:reverse;
+    font-size: 20px;
+    
     
     
   }
@@ -640,12 +670,13 @@ background-color:black;
   animation: one 0.9s;
   animation-direction:reverse;
   position: fixed;
-  top: -20px;
+  top: -20px !important;
   height: 111vh;
   /* animation: roll 0.5s ;
   transform: scale(1) rotate(720deg); */
   
 }
+
 
 @keyframes one {
   0% {
@@ -667,6 +698,9 @@ background-color:black;
 
 h4{
   font-size: xx-large;
+  font-weight: 100;
+    color: white;
+    font-family: adobe-garamond-pro;
 }
 
 .contactme a {
@@ -810,4 +844,225 @@ h4{
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     opacity: 0;
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+.resume-link  {
+  position: absolute;
+  top: 80%;
+  
+  
+  
+}
+
+.resume-link a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.resume-link a:hover{
+  
+    color: black;
+    
+    background-color: white;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectone-backg:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+  
+}
+  
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  padding: 20px;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 50px;
+  font-family: 'chevindemibold', sans-serif;
+}
+
+.description {
+  width: 24px;
+  float: left;
+  border: 1.5px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-row {
+  
+  height: 375px;
+  margin-left:10px;
+  margin-bottom: 10px;
+
+}
+
+.protwo-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:48%;
+  border: 1px solid black;
+  height:inherit;
+  background-image: url(./drummachine.png);
+  background-size: cover; 
+  background-position: center;
+  margin-right: 10px;
+  position: relative;
+}
+
+.protwo-back:hover  .Projecttwodescription{
+  opacity: 1.5;
+  cursor: pointer;
+}
+
+.prothree-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:50.5%;
+  border: 1px solid black;
+  height: inherit;
+  background-image: url(./diamondgame.png);
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+}
+.prothree-back:hover  .Projecttwodescription{
+  opacity: 1.5;
+  cursor: pointer;
+}
+
+.second-row {
+  
+  height: 375px;
+  margin-left:10px;
+  margin-bottom: 10px;
+
+}
+
+.profour-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:48%;
+  border: 1px solid black;
+  height:inherit;
+  background-image: url(./calc.png);
+  background-size: cover; 
+  
+  margin-right: 10px;
+  position: relative;
+}
+
+.profour-back:hover  .Projecttwodescription{
+  opacity: 1.5;
+  cursor: pointer;
+}
+.profive-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:50.5%;
+  border: 1px solid black;
+  height: inherit;
+  background-image: url(./todoapp.png);
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+}
+.profive-back:hover  .projectfivedesc{
+  opacity: 1.5;
+  cursor: pointer;
+}
+
+.third-row {
+  
+  height: 375px;
+  margin-left:10px;
+  margin-bottom: 10px;
+
+}
+
+.prosix-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:48%;
+  margin-right: 10px;
+  border:1px solid rgb(123, 229, 222);
+  height: inherit;
+  background-image: url(./wiki.png);
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+
+}
+
+.prosix-back:hover .projectsixdesc {
+  opacity: 1.5;
+  cursor: pointer;
+}
+
+.proseven-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width:50.5%;
+  border: 1px solid black;
+  height: inherit;
+  background-image: url(./rarticle.png);
+  background-size: cover; 
+  
+  position: relative;
+}
+
+.proseven-back:hover .projectsevendesc {
+  opacity: 1.5;
+  cursor: pointer;
 }

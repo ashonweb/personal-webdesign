@@ -13,10 +13,12 @@ export default class Navigationnew extends Component {
         {/* <Link to="/" className="active">HOME</Link>
         <Link to="/about">ABOUT</Link>
         <Link to="/skills">SKILLS & EXPERIENCE</Link> */}
-        <button onClick={() => {this.props.updateContactVisibility(true)}} to="/contact">CONTACT</button>
+        <button onClick={() => {this.props.updateContactVisibility(true)}} to="/contact">Contact</button>
         {/* <Link to="/contact">contact</Link>  */}
         {/* <button>  <strong>Previous</strong> </button> */}
-        <Link to="/blog">blog</Link> 
+        {/* <Link to="/resume">Resume</Link>  */}
+        <button onClick={() => {this.props.updateResumeVisibility(true)}} to="/contact">Resume</button>
+
 
        
       
