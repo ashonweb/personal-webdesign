@@ -29,9 +29,9 @@ export default class Navigationnew extends Component {
         <button onClick={() => {this.props.updateResumeVisibility(true)}} to="/contact">Resume</button>
 
 
-         <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
+         {/* <a href="javascript:void(0)" className="icon" onClick={this.myFunction}>
             <FontAwesomeIcon icon={faBars} />
-          </a>
+          </a> */}
       
         
         </div>

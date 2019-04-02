@@ -74,9 +74,9 @@
 
   
 
-button {
+/* button {
   display: none;
-}
+} */
 
 .Helloworld {
   /* border: 1px solid orangered; */
@@ -259,6 +259,37 @@ button {
   height: 462px;
   margin-right: 0px;
   margin-bottom: 10px;
+}
+
+.contactok {
+  background-color: black;
+  margin: 35px 11px;
+  height: 82%;
+  color: rebeccapurple;
+  z-index: -1;
+  /* animation: roll 0.9s; */
+  -webkit-transform: rotateX(10deg);
+  transform: rotateX(10deg);
+  -webkit-animation: one 0.9s;
+  animation: one 0.9s;
+  animation-direction: reverse;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  /* transition: 0.3s cubic-bezier(.0,.3,0,1); */
+  /* transform: rotate(10deg); */
+  /* opacity: .7; */
+}
+
+.contactme a {
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
 }
 }
 
