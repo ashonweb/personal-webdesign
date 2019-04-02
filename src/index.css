@@ -6,7 +6,7 @@ body {
   color: #323232;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin:auto 135px;
+  /* margin:auto 135px; */
   /* border:1px solid red; */
   height: 100vh;
 }
