@@ -1,4 +1,7 @@
 @media only screen and (max-width:600px){
+  .wholebody {
+    margin:0px;
+  }
   .topnav.responsive button{display: inline;}
 
 

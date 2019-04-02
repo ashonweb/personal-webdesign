@@ -36,7 +36,7 @@ export default  class App extends Component {
 
   render() {    
     return (
-      <div>
+      <div className="wholebody">
        <Logo />
        <hr></hr>
           <Navigationnew updateContactVisibility={this.updateContactVisibility} updateResumeVisibility={this.updateResumeVisibility} />
