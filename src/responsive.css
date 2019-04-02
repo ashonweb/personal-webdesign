@@ -1,9 +1,57 @@
 @media only screen and (max-width:600px){
+  .topnav.responsive button{display: inline;}
+
+
+  .topnav a {
+    /* text-align: center; */
+    /* padding: 10px 50px; */
+    /* text-decoration: none; */
+    /* font-size: 20px; */
+    /* border: 1.5px solid; */
+    /* border-top: 0; */
+    /* border-bottom: 0; */
+    -webkit-border-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(226, 226, 226, 1) 48%, rgba(255, 255, 255, 0) 100%); 
+     border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(226, 226, 226, 1) 48%, rgba(255, 255, 255, 0) 100%); 
+     border-image-slice: 1; 
+    font-weight: bold;
+    color: black;
+    
+
+
+  }
+
+  .active{
+    float: left;
+  }
+
+
+  .topnav a.icon {
+    float: center;
+    display: block;
+    color: black;
+  }
+
+  /* .topnav.responsive {position: relative;} */
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8%;
+    z-index: 1; 
+
+
+  }
+  .topnav.responsive button {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+ 
+
   body {
     margin:0;
   }
   .wrapper {
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
      margin: 30px 0px;
     /* height: 100px; */
     text-align: -webkit-center;
@@ -30,32 +78,189 @@ button {
   display: none;
 }
 
-  .active{
-    float: left;
-  }
+.Helloworld {
+  /* border: 1px solid orangered; */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  font-size: xx-large;
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-align: center;
+}
+
+.containerforaboutme {
+  height: auto;
+}
+.aboutme {
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  padding: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 45px;
+  font-size: 16px;
+  line-height: 45px;
+  text-shadow: 1px 1px 1px blanchedalmond;
+  background: transparent;
+  font-weight: 560;
+}
+
+.firstblock {
+  
+ 
+  width: 100%;
+  height: 153vh;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.secondblock {
+  display: block;
+  
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.first-row {
+  height: 720px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
 
 
-  .topnav a.icon {
-    float: right;
-    display: block;
-    color: black;
-  }
+.protwo-back {
+  display: block;
+  /* vertical-align: top; */
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url(http://localhost:3000/static/media/drummachine.df68fcf9.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 0px; 
+  position: relative;
+  height: 330px;
+  margin-bottom: 10px;
+}
 
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1; 
+.drumtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  padding: 20px;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 32px;
+}
 
+.prothree-back {
+  display: block;
+  width: 100%;
+  height: 358px;
+  border: 1px solid black;
+  background-image: url(http://localhost:3000/static/media/diamondgame.d0cfd450.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.second-row {
+  display: block;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left:0px;
+  /* border:1px solid rgb(154, 154, 173); */
+}
 
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+.profour-back {
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  /* box-sizing: border-box; */
+  display: block;
+  width: 98%;
+  height: 575px;
+  border: 1px solid black;
+  /* height: inherit; */
+  background-image: url(http://localhost:3000/static/media/calc.13e3f3c4.png);
+  background-size: cover;
+  /* margin-right: 10px; */
+  position: relative;
+  background-position: -5px 0px;
+  background-repeat: no-repeat;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+.profive-back {
+  display: block;
+  
+  width: 100%;
+  border: 1px solid black;
+  /* height: inherit; */
+  background-image: url(http://localhost:3000/static/media/todoapp.97d91eb2.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 400px;
+}
+.third-row {
+  display: block;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left:0px;
+  /* border:1px solid darkblue; */
   
 }
+.prosix-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 10px;
+  border: 1px solid black;
+  height: inherit;
+  background-image: url(http://localhost:3000/static/media/wiki.08e4b908.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 312px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.calctext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  padding: 20px;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 29px;
+}
+.proseven-back {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 10px;
+  border: 1px solid black;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 462px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+}
+
 
  

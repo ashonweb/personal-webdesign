@@ -18,7 +18,6 @@ export default class Navigationnew extends Component {
     return (
       <div>
         <div className="topnav" id="myTopnav">
-        <Link to="/" className="active">HOME</Link>
 
         {/* <Link to="/" className="active">HOME</Link>
         <Link to="/about">ABOUT</Link>
